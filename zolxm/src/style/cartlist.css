@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+.head {
+  height: 120px;
+}
+.head span {
+  margin: 0 10px;
+}
+.head .topnav {
+  width: 100%;
+  overflow: hidden;
+  background: #f6f6f6;
+}
+.head .topnav-left,
+.head .topnav-login {
+  float: left;
+  height: 30px;
+}
+.head .topnav-left li,
+.head .topnav-login li {
+  float: left;
+  line-height: 30px;
+}
+.head .topnav-left li a,
+.head .topnav-login li a {
+  font-size: 12px;
+  color: #474747;
+}
+.head .topnav-left li a :hover,
+.head .topnav-login li a :hover {
+  color: red;
+}
+.head .topnav-login {
+  float: right;
+}
+.head .searchnav {
+  height: 80px;
+}
+.head .searchnav .logo {
+  display: block;
+  float: left;
+  width: 330px;
+  height: 60px;
+  margin: 32px 15px 0 0;
+  background: url(https://icon.zol-img.com.cn/ucdn/b-zol-com/1.0.2/img/logo.34b1b031.png) no-repeat;
+}
+.head .search {
+  float: left;
+  margin: 30px 0 0 55px;
+}
+.head .search .searchbox {
+  width: 400px;
+  height: 38px;
+  border: 2px solid #fd4165;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  position: relative;
+}
+.head .search .searchbox input {
+  width: 350px;
+  height: 30px;
+  float: left;
+  margin-top: 4px;
+  margin-left: 40px;
+  border: none;
+}
+.head .search .searchbox .searbtn {
+  width: 75px;
+  height: 42px;
+  position: absolute;
+  right: -77px;
+  top: -2px;
+  background: linear-gradient(90deg, #fd4165, #fc002d);
+  border-radius: 0 20px 20px 0;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+.head .search ul {
+  margin-left: 15px;
+  overflow: hidden;
+}
+.head .search ul li {
+  float: left;
+}
+.head .search ul li a {
+  font-size: 12px;
+  color: #666666;
+}
+.head .buycar {
+  width: 128px;
+  height: 35px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #dfdfdf;
+  margin-left: 110px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.head .buycar a {
+  color: #fc002d;
+}
+.head .buycar span {
+  vertical-align: top;
+  margin-left: 2px;
+}
+.head .buycar img {
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+}
+.head .erm {
+  float: right;
+  width: 80px;
+  height: 80px;
+  margin: 17px 0 0;
+}
+.head .erm img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  position: relative;
+  margin-top: 20px;
+  height: 500px;
+}
+
+.cart-main h1 {
+  color: #fc002d;
+  font-size: 18px;
+  height: 27px;
+}
+.cart-main .cart-nav {
+  height: 36px;
+  line-height: 36px;
+  background: #f5f5f5;
+  border-top: 2px solid #fc002d;
+  font-size: 14px;
+}
+.cart-main .cart-nav .cart-desc {
+  padding-left: 75px;
+  margin-right: 455px;
+}
+.cart-main .cart-nav .cart-price {
+  margin-right: 153px;
+}
+.cart-main .cart-nav .cart-num {
+  margin-right: 153px;
+}
+.cart-main .cart-nav .cart-prices {
+  margin-right: 160px;
+}
+.cart-main .cart-bigbox {
+  width: 1200px;
+  overflow: hidden;
+}
+.cart-main .cart-box {
+  height: 80px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 12px;
+}
+.cart-main .cart-box .desc-img,
+.cart-main .cart-box .desc-name,
+.cart-main .cart-box .cart-box-num,
+.cart-main .cart-box .cart-box-price,
+.cart-main .cart-box .cart-box-prices,
+.cart-main .cart-box .cart-box-clear {
+  float: left;
+}
+.cart-main .cart-box .desc-img {
+  border: 1px solid #666;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  margin-right: 10px;
+}
+.cart-main .cart-box .desc-img img {
+  width: 80px;
+  height: 80px;
+}
+.cart-main .cart-box .desc-name {
+  width: 270px;
+  margin-right: 200px;
+  font-size: 10px;
+}
+.cart-main .cart-box .desc-name .p-nameone {
+  height: 36px;
+  color: #333;
+}
+.cart-main .cart-box .desc-name .p-nametwo {
+  color: #666;
+  height: 18px;
+}
+.cart-main .cart-box .cart-box-price {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin-right: 100px;
+}
+.cart-main .cart-box .cart-box-num .num-list {
+  float: left;
+  margin-left: 7px;
+  margin-top: 27px;
+}
+.cart-main .cart-box .cart-box-num .num-list li {
+  float: left;
+  width: 16px;
+  height: 22px;
+  border: 1px solid #ddd;
+}
+.cart-main .cart-box .cart-box-num .num-list li input {
+  width: 44px;
+  height: 22px;
+  text-align: center;
+  border: none;
+}
+.cart-main .cart-box .cart-box-num .num-list .num {
+  width: 44px;
+  margin: 0 -1px;
+}
+.cart-main .cart-box .cart-box-num .num-list .jian,
+.cart-main .cart-box .cart-box-num .num-list .jia {
+  text-align: center;
+  line-height: 22px;
+  cursor: pointer;
+}
+.cart-main .cart-box span {
+  display: block;
+  float: left;
+  width: 100px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #fc002d;
+}
+.cart-main .cart-box .cart-box-prices {
+  color: #fc002d;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 135px;
+}
+.cart-main .cart-box .cart-box-clear {
+  line-height: 80px;
+  cursor: pointer;
+  color: #666;
+}
+
+.main2 {
+  width: 100%;
+  background-color: #fff;
+}
+
+.cart-bycar {
+  font-size: 12px;
+  color: #333;
+  width: 1200px;
+  height: 74px;
+  box-shadow: 0 -3px 5px 0 rgba(14, 5, 10, 0.07);
+}
+.cart-bycar .bycar-left {
+  float: left;
+  line-height: 74px;
+}
+.cart-bycar .bycar-right {
+  float: right;
+}
+.cart-bycar .bycar-right li {
+  float: left;
+  line-height: 74px;
+}
+.cart-bycar .bycar-right .bycar-sp {
+  margin-right: 34px;
+}
+.cart-bycar .bycar-right .bycar-prices {
+  margin-right: 27px;
+}
+.cart-bycar .bycar-right .bycar-prices span {
+  font-size: 20px;
+  color: #fc002d;
+  vertical-align: middle;
+}
+.cart-bycar .bycar-right .bycarbtn {
+  width: 110px;
+  text-align: center;
+  line-height: 74px;
+  background: #fc002d;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #302e2e;
+  color: #fff;
+  font-size: 12px;
+  padding: 20px 0;
+}
+.footer .footer-left {
+  float: left;
+  margin-top: 20px;
+  color: #999;
+}
+.footer .footer-left p {
+  margin-bottom: 10px;
+}
+.footer .footer-left span:nth-of-type(1) {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.footer .footer-left span:nth-of-type(2) {
+  font-size: 18px;
+  color: #fc002d;
+  vertical-align: middle;
+}
+.footer .footer-right {
+  float: right;
+}
+
+/*# sourceMappingURL=cartlist.css.map */

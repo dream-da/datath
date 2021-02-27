@@ -1,0 +1,186 @@
+@charset "utf-8";
+// registry-main registry-line submitbtn
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1200px;
+    overflow: hidden;
+    margin: auto; // 
+}
+
+.head {
+    // height: 200px;
+    span {
+        margin: 0 10px;
+    }
+    .topnav {
+        width: 100%;
+        overflow: hidden;
+        background: #f6f6f6;
+    }
+    .topnav-left,
+    .topnav-login {
+        float: left;
+        height: 30px;
+        li {
+            float: left;
+            line-height: 30px;
+            a {
+                font-size: 12px;
+                color: #474747;
+                 :hover {
+                    color: red;
+                }
+            }
+        }
+    }
+    .topnav-login {
+        float: right;
+    }
+    .searchnav {
+        height: 80px;
+        .logo {
+            display: block;
+            float: left;
+            width: 330px;
+            height: 60px;
+            margin: 32px 15px 0 0;
+            background: url(https://icon.zol-img.com.cn/ucdn/b-zol-com/1.0.2/img/logo.34b1b031.png) no-repeat;
+        }
+    }
+}
+
+.big {
+    width: 980px;
+    height: 491px;
+    margin: 0 184.5px;
+    padding: 40px 0 140px 0;
+    .registry-post {
+        font-size: 14px;
+        color: #fff;
+        height: 35px;
+        display: none;
+        .p-account,
+        .p-company {
+            float: left;
+            width: 490px;
+            height: 35px;
+            text-indent: 40px;
+            line-height: 35px;
+        }
+    }
+}
+
+// 表单框
+// 注册信息主体
+$line-w:635px;
+$span-w:72px;
+$h:40px;
+$input-w:548px;
+$input-h:36px;
+.registry-main {
+    width: 635px;
+    height: 426px;
+    margin: 30px 172.5px 0 172.5px;
+    font-size: 14px;
+    // 信息填写框
+    .registry-line {
+        width: $line-w;
+        height: $h;
+        margin-top: 30px;
+        .registry-name {
+            width: 85px;
+            height: $h;
+            float: left;
+            text-align: center;
+            line-height: $h;
+        }
+        input {
+            width: $input-w;
+            height: $input-h;
+            border: 1px solid #ddd;
+            text-indent: 20px; // 字体首行缩进
+        }
+    }
+}
+
+// 注册类型选项
+.zc {
+    #active {
+        background: #fc002d;
+        color: #fff;
+        border: 1px solid#fc002d;
+    }
+    .user,
+    .firm {
+        display: block;
+        float: left;
+        width: 108px;
+        height: 36px;
+        text-align: center;
+        line-height: $h;
+        border: 1px solid #000;
+    }
+}
+
+// 注册信息提交
+.submitbtn {
+    width: 550px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    margin: 40px 0 0 85px;
+    background-color: #ddd;
+    color: #999;
+}
+
+.login-link {
+    width: $line-w;
+    height: 12px;
+    margin-top: 16px;
+    font-size: 12px;
+    span {
+        display: block;
+        float: right;
+    }
+    a {
+        line-height: 0;
+        color: #005aa0;
+        text-decoration: none;
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #302e2e;
+    color: #fff;
+    font-size: 12px;
+    padding: 20px 0;
+    .footer-left {
+        float: left;
+        margin-top: 20px;
+        color: #999;
+        p {
+            margin-bottom: 10px;
+        }
+        span:nth-of-type(1) {
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        span:nth-of-type(2) {
+            font-size: 18px;
+            color: #fc002d;
+            vertical-align: middle;
+        }
+    }
+    .footer-right {
+        float: right;
+    }
+}
